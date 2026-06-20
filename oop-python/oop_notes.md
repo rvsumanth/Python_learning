@@ -44,3 +44,27 @@ Syntax:  <class_name>.<method_name>()
 ```
 
 [Reference code](./Class_variables_methods.py)
+
+## Encapsulation
+- Encapsulation is the process bo binding class attributes and methods into a single unit and restrict the direct access of it.
+- It hides the internal logic by providing secure accessability of class members
+- **Why we use Encapsulation**
+  - To protect data from unintended access or modification.
+  - To hide complexity and show only essential features.
+  - To provide controlled access through methods.
+  - To organise code better.
+- We can achieve encapsulation through "Access Modifiers"
+- Access Modifiers are the responsible for restricting the direct access of class members.
+- There are three types of access modifiers
+  - **Public**: Public access modifier makes Class members can be accessible from anywhere like inside or outside of the class.
+    - Syntax: self.<Variable_name>
+  - **Protect**: Protect access modifier makes Class members can be accessible only in Class and its subclasses.
+    - Syntax: "self._<variable_name>" or "def _<method_name>()"
+    - Uses single underscore in front of varible name or method name that represents Protect members
+  - **Private**: Priivate access modifier makes Class members can be accessible only within the class.
+    - Syntax: "self.__<variable_name>" or "def __<method_name>()"
+    - Uses double underscore in front of varible name or method name that represents Private members
+- To acess the data we need to use getters and setters.
+- Getters and Setters are the Methods which provides controlled access of private and protected members.
+  
+[Reference code](Encapsulation.py)
