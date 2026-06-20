@@ -17,3 +17,7 @@
 ### Completed Tasks
   - **Python** : Constructor, Instance variables and Methods, Class Variables and Methods
     - Wrote example codes and maintained Notes for the above topics
+
+## 20-06-2026
+### Completed tasks
+- **Python**: Revised OOP-Encapsulation topic, Wrote example code ,Updated notes.
