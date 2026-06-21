@@ -26,7 +26,7 @@ class Bank_Operations_Demo:
         else:
             raise ValueError('Invalid Transaction')
 
-    def get_balance(self) -> int:
+    def get_balance(self) -> int:           #Getter Method
         '''This is getter method we can get access of the balance amount value'''
         return self._balance
     
