@@ -10,8 +10,11 @@ Fast API is a webframe work used to develop and built web applicationas and webi
 
 ## Path Parameters
 
-Path parameters are like the variables we can declare them as like we declare in Python
-
+- Path parameters are like the variables we can declare them as like we declare in Python.
+- Path parameters are part of URL path.
+- Path Parameters are the values that are passed inside the URL.
+- Path Parameters are used to identify a specific resource.
+- Example
 ```
 from fastapi import FastAPI
 
@@ -23,6 +26,6 @@ async def read_item(item_id):
     return {"item_id": item_id}
  ```
 
-The item_id will pass through the function as the argument item_id
+  -  The item_id will pass through the function as the argument item_id
 
-We can declare the path parameter types in the function 
+  - We can declare the path parameter types in the function 
