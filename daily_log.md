@@ -21,3 +21,9 @@
 ## 20-06-2026
 ### Completed tasks
 - **Python**: Revised OOP-Encapsulation topic, Wrote example code ,Updated notes.
+
+## 21-06-2026
+### Completed Tasks
+- **Python**: Learned and Revised getters and setters , wrote example code and updated notes.
+- **Fast API**: Learned and revised path parameters and query parameters, Wrote example codes and updated notes.
+ 
