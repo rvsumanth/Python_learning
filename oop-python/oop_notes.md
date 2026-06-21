@@ -66,5 +66,8 @@ Syntax:  <class_name>.<method_name>()
     - Uses double underscore in front of varible name or method name that represents Private members
 - To acess the data we need to use getters and setters.
 - Getters and Setters are the Methods which provides controlled access of private and protected members.
+- We can use getters and setters in 2 ways
+  - Casual Methods Getter and Setter [Example code](./Encapsulation.py)
+  - Using @property and @<property_name>.setter [Example code](./Getters_Setters.py)
   
 [Reference code](Encapsulation.py)
