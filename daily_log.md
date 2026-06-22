@@ -26,4 +26,9 @@
 ### Completed Tasks
 - **Python**: Learned and Revised getters and setters , wrote example code and updated notes.
 - **Fast API**: Learned and revised path parameters and query parameters, Wrote example codes and updated notes.
+
+## 22-06-2026
+### Completed Tasks
+- **Python**: Learned and Revised Inheritance Concept, Wrote basic example code and updated notes.
+- **Fast API**: Learned POST, PUT, DELETE Methods, Wrote basic example codes for all methods.
  
