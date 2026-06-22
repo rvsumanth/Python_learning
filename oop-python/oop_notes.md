@@ -71,3 +71,66 @@ Syntax:  <class_name>.<method_name>()
   - Using @property and @<property_name>.setter [Example code](./Getters_Setters.py)
   
 [Reference code](Encapsulation.py)
+
+## Inheritance
+- In Object oriented programming Inheritance is one of the major pillar
+- Inheritance is a feature of OOP where a class is allowed to inherit the properties and behaviours (variables and methods) of another class.
+- [Example code](Inheritance.py)
+- Types of Inheritance 
+  - Single level Inheritance - [Example code](SingleInheritance.py)
+  - Multilevel Inheritance - [Example code](Multilevel_Inheritance.py)
+  - Multiple Inheritance - [Example code](Multiple_Inheritance.py)
+  - Hirearchical Inheritance - [Example code](Hierarchical_Inheritance.py)
+  - Hybrid Inheritance - [Example code](Hybrid_Inheritance.py)
+- **Why Inheritance**
+  - Code Reusability: You don’t need to rewrite the same code in multiple classes. 
+  - Avoid Duplication: Common code stays in the parent class
+  - Improves Maintainance: Changes in one place affect all related classes.
+  - Allows Extensibility: You can add new features without modifying old code. 
+  - Supports porlymorphism: You can treat child classes as the parent class type (useful in large systems).
+- **Diagrams**
+```
+Single Inheritance:
+
+    class A 
+       │ 
+    class B 
+```
+```
+Multilevel Inheritance:
+
+    Class A 
+       │
+    Class B
+       │
+    Class C
+    
+```
+
+```
+Multiple Inheritance:
+    A   B 
+     \ / 
+      C
+```
+```
+Hierarchical Inheritance:
+      A 
+     / \ 
+    B   C 
+
+```
+```
+Hybrid Inheritance:
+      A 
+     / \ 
+    B   C 
+     \ / 
+      D 
+```
+- **Super()**:
+  -  super() is a built-in Python function that gives you access to methods and properties of the parent class from inside the child class. 
+  -  It is mostly used to: 
+     - Call a method from the parent class.
+     - Call the parent class’s __init__() constructor. 
+   -  Syntax of super() : "super().method_name()" 
