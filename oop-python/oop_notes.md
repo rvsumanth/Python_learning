@@ -134,3 +134,50 @@ Hybrid Inheritance:
      - Call a method from the parent class.
      - Call the parent class’s __init__() constructor. 
    -  Syntax of super() : "super().method_name()" 
+  
+## Polymorphism
+- Polymorphism means “many forms”. 
+- In Object-Oriented Programming (OOP), it means one interface or method behaves differently based on the object that is calling it
+- There are two types: 
+  - Compile-Time Polymorphism (Static) → Method Overloading 
+  - Run-Time Polymorphism (Dynamic) → Method Overriding 
+- **Why Do We Use Polymorphism?** 
+  - Code Reusability: You don’t have to rewrite code for similar behaviors. 
+  - Flexibility & Extensibility: Code can work with different types of objects. 
+  - Maintainability: You can change parts of code without breaking the rest. 
+  - Abstraction: Focus on "what" needs to be done, not "how" exactly it’s done. 
+   - Interface Implementation: It enables powerful designs like plugin systems, APIs, and polymorphic containers.
+ - **Where Do We Use Polymorphism?**
+   - GUI toolkits (e.g., a draw() method works differently on Circle, Square, etc.) 
+   - Machine Learning Pipelines (e.g., fit() and predict() methods) 
+   - Game Development (e.g., move() works differently for Player, Enemy, NPC)
+   - Web Frameworks (e.g., different controllers implementing the same method)
+   - Banking Systems (e.g., calculate_interest() method works differently for SavingsAccount and FixedDeposit)
+- **Method Overriding**:
+  - Method Overriding occurs when a child class provides a specific implementation of a method that is already defined in its parent class. 
+  - The method name, number of parameters, and return type (if applicable) must be the same. 
+  - The child class’s method overrides (replaces) the parent class’s method at runtime. 
+  -  The decision about which method to execute (parent or child) is made while the program is running, not at compile time.
+  -  This is especially useful when using parent class references to refer to child class objects. 
+-  Rules for Method Overriding:
+     - Same method name: Must be same in parent and child 
+    - Same number/type of parameters Must match 
+    - Same return type: (Python flexible, in Java must match or be a subtype) 
+    - Access modifier: Not restricted in Python, but in Java, child cannot reduce visibility
+    - Inheritance required: Must be inheritance between parent and child classes 
+- How overiding useful
+  - Customizing behavior: You can reuse structure from a base class but customize specific behavior. 
+  - Polymorphic behavior: You can write generic code using parent class but get child-specific output. 
+  - Maintainable code: Changes in behavior can be done by modifying only the child class. 
+  - Real-world modeling: Different objects behave differently even though the interface is the same. 
+- **What is Duck Typing?** 
+  - “If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.” 
+  - In programming, duck typing means: 
+  - An object's suitability is determined by the presence of methods and properties, rather than the actual type of the object. 
+- **Why Duck Typing is Useful:**
+  - Flexible & dynamic code. 
+  - No need for rigid class hierarchies. 
+  - Encourages polymorphism without inheritance. 
+
+ 
+
