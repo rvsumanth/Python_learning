@@ -31,4 +31,14 @@
 ### Completed Tasks
 - **Python**: Learned and Revised Inheritance Concept, Wrote basic example code and updated notes.
 - **Fast API**: Learned POST, PUT, DELETE Methods, Wrote basic example codes for all methods.
- 
+
+## 23-06-2026
+## Completed Tasks
+- **Python**: Learned and Revised Polymorphism Concept, Wrote basic example code and updated notes.
+
+## 24-06-2026
+- REST DAy
+
+## 25-06-2026
+### Completed Tasks
+- **Python**: Learned and Revised Abstraction Concept, Wrote basic example code and updated notes.
