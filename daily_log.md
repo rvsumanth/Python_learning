@@ -46,3 +46,8 @@
 ## 26-06-2026
 ### Completed Tasks
 - **DSA**: Learned and revised basic array operations.
+
+## 27-06-2026
+### Completed Tasks
+- **Python**: Learned and practiced Exception handling
+- 
