@@ -50,4 +50,8 @@
 ## 27-06-2026
 ### Completed Tasks
 - **Python**: Learned and practiced Exception handling
-- 
+
+## 03-07-2026
+### Completed tasks
+- **Python**: Solved 6 basic problems on topic - List
+ 
