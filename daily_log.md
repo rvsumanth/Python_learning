@@ -54,4 +54,7 @@
 ## 03-07-2026
 ### Completed tasks
 - **Python**: Solved 6 basic problems on topic - List
+
+## 08-07-2026
+- **Python**: Solved 5 basic Problems on List 
  
