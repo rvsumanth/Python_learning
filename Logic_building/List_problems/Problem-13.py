@@ -1,11 +1,11 @@
 '''
-program to print only not   prime numbers in the list 
+program to print only not  prime numbers in the list 
 input:[1,2,3,4,5,6,7] 
 output:[1,4,6] 
 '''
 
 def is_prime(num: int) -> bool:
-    if num == 0 or num == 1:
+    if num <= 0 or num == 1:
         return False
     else:
         for i in range(2, int(num**0.5)+1):
