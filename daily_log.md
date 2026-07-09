@@ -58,3 +58,5 @@
 ## 08-07-2026
 - **Python**: Solved 5 basic Problems on List 
  
+ ## 09-07-2026
+- Solved 3 basic Problems on List 
