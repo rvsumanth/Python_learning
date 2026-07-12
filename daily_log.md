@@ -60,3 +60,6 @@
  
  ## 09-07-2026
 - Solved 3 basic Problems on List 
+
+## 12-07-2026
+- Learned File handling using python
