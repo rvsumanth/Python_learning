@@ -63,3 +63,9 @@
 
 ## 12-07-2026
 - Learned File handling using python
+
+## 15-07-2026
+- Solved 2 baisc problems on List
+
+## 22-07-2026
+- Solved 1 leet code problem
