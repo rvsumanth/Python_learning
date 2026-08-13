@@ -72,4 +72,7 @@
 
 ## 24-07-2026
 - solved 3 basic array problems [ref](./DataStructures_Algortihms/Arrays/)
-- Learned and practiced Binary search [ref](./DataStructures_Algortihms/Algorithms/Binary_search.py)
+- Learned and practiced Binary search [ref](./DataStructures_Algortihms/Algorithms/Binary_search)
+
+### 13-08-2026
+- Rest Day
