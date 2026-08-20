@@ -79,3 +79,6 @@
 
 ### 14-08-2026
 - Rest day
+
+### 20-08-2026
+- Solved one problem in list
